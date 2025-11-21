@@ -34,10 +34,7 @@ const visibleHomepageBasics = computed(() =>
 
                     <h1 class="mb-3 text-2xl font-bold"> <strong class="text-indigo-500">Workshop: Homepage - Start</strong> </h1>
                     <div class="mb-3 space-y-1">
-                        <details
-  class="group [&_summary::-webkit-details-marker]:hidden"
-  @toggle="isHomepageBasicsOpen = $event.target.open"
->
+                        <details class="group [&_summary::-webkit-details-marker]:hidden" @toggle="isHomepageBasicsOpen = $event.target.open"                        >
                             <summary class="flex cursor-pointer items-center justify-between gap-4 rounded-lg border border-gray-200 bg-white px-4 py-3 font-medium text-gray-900 hover:bg-gray-50 dark:border-gray-700 dark:bg-gray-900 dark:text-white dark:hover:bg-gray-800">
                                 <span>➡ Einführung in Grundlagen der Homepagegestaltung</span>
                                 <svg class="size-4 shrink-0 transition-transform duration-300 group-open:-rotate-180"

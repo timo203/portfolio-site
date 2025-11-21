@@ -7,7 +7,7 @@
     {{-- Load Tailwind + JS via Vite --}}
     @vite(['resources/css/app.css', 'resources/js/app.js'])
 </head>
-<body class="bg-slate-900 text-slate-100 min-h-screen flex items-center justify-center">
+<body class="antialiased">
 
     {{-- Vue will render INTO this div --}}
     <div id="app"></div>

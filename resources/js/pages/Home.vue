@@ -1,5 +1,7 @@
 <script setup>
 import DefaultLayout from '../layouts/DefaultLayout.vue'
+import { Button } from '@/components/ui/button'
+
 </script>
 
 <template>
@@ -12,6 +14,8 @@ import DefaultLayout from '../layouts/DefaultLayout.vue'
                 I’m a backend developer who loves Laravel, PHP, and databases like MariaDB, SQLite, and DuckDB.
             </p>
         </section>
+
+        <Button variant="secondary" class="text-emerald-400 bg-emerald-800 hover:bg-white">Outline</Button>
 
         <div class="mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8">
             <div class="mx-auto max-w-xl text-center">
@@ -27,8 +31,6 @@ import DefaultLayout from '../layouts/DefaultLayout.vue'
                     Genutzt für die erstellung der Seite habe ich:
                 </p>
             </div>
-
-
 
             <div class="mt-8 grid grid-cols-1 gap-8 sm:grid-cols-3 max-w-xl mx-auto">
 
