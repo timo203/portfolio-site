@@ -39,8 +39,7 @@ const translations = {
                     'Architected and built scalable REST APIs using Laravel.',
                     'Optimized database queries, reducing response times by 40%.',
                     'Implemented automated CI/CD pipelines with GitHub Actions.'
-                ],
-                logo: '/images/optimex_.png'
+                ]
             },
             plusserver: {
                 date: '01/08/2019 - 30/01/2023',
@@ -51,8 +50,7 @@ const translations = {
                     'Gained hands-on experience in Linux system administration.',
                     'Developed internal tools for billing and contract management.',
                     'Rotated through key departments to understand business operations.'
-                ],
-                logo: '/images/plusserver.png'
+                ]
             },
             workshop1: {
                 date: '06/08/2018 - 10/08/2018',
@@ -62,8 +60,7 @@ const translations = {
             brunata: {
                 date: '13/11/2017 - 01/12/2017',
                 title: 'Internship',
-                description: 'Internship at BRUNATA METRONA',
-                logo: '/images/brunata.png'
+                description: 'Internship at BRUNATA METRONA'
             },
             workshop2: {
                 date: '14/08/2017 - 18/08/2017',
@@ -129,8 +126,7 @@ const translations = {
                     'Architektur und Entwicklung skalierbarer REST-APIs mit Laravel.',
                     'Optimierung von Datenbankabfragen, Reduzierung der Antwortzeiten um 40%.',
                     'Implementierung automatisierter CI/CD-Pipelines mit GitHub Actions.'
-                ],
-                logo: '/images/optimex.png'
+                ]
             },
             plusserver: {
                 date: '01/08/2019 - 30/01/2023',
@@ -141,8 +137,7 @@ const translations = {
                     'Praktische Erfahrung in der Linux-Systemadministration.',
                     'Entwicklung interner Tools für Abrechnung und Vertragsmanagement.',
                     'Rotation durch Schlüsselabteilungen zum Verständnis der Geschäftsabläufe.'
-                ],
-                logo: '/images/plusserver.png'
+                ]
             },
             workshop1: {
                 date: '06/08/2018 - 10/08/2018',

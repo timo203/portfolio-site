@@ -9,6 +9,15 @@ const toggleExpand = (index) => {
     expandedIndex.value = expandedIndex.value === index ? null : index
 }
 
+const logoMap = {
+    optimex: '/images/optimex_.png',
+    plusserver: '/images/plusserver.png',
+    workshop1: '/images/skstiftungjugendundmedien.png',
+    brunata: '/images/brunata.png',
+    workshop2: '/images/skstiftungjugendundmedien.png',
+    workshop3: '/images/skstiftungjugendundmedien.png'
+}
+
 const timelineItems = computed(() => [
     {
         year: t.value.timeline.optimex.date,
@@ -16,7 +25,7 @@ const timelineItems = computed(() => [
         description: t.value.timeline.optimex.description,
         details: t.value.timeline.optimex.details,
         points: t.value.timeline.optimex.points,
-        logo: t.value.timeline.optimex.logo
+        logo: logoMap.optimex
     },
     {
         year: t.value.timeline.plusserver.date,
@@ -24,7 +33,7 @@ const timelineItems = computed(() => [
         description: t.value.timeline.plusserver.description,
         details: t.value.timeline.plusserver.details,
         points: t.value.timeline.plusserver.points,
-        logo: t.value.timeline.plusserver.logo
+        logo: logoMap.plusserver
     },
     {
         year: t.value.timeline.workshop1.date,
@@ -32,7 +41,7 @@ const timelineItems = computed(() => [
         description: t.value.timeline.workshop1.description,
         details: t.value.timeline.workshop1.details,
         points: t.value.timeline.workshop1.points,
-        logo: t.value.timeline.workshop1.logo
+        logo: logoMap.workshop1
     },
     {
         year: t.value.timeline.brunata.date,
@@ -40,7 +49,7 @@ const timelineItems = computed(() => [
         description: t.value.timeline.brunata.description,
         details: t.value.timeline.brunata.details,
         points: t.value.timeline.brunata.points,
-        logo: t.value.timeline.brunata.logo
+        logo: logoMap.brunata
     },
     {
         year: t.value.timeline.workshop2.date,
@@ -48,7 +57,7 @@ const timelineItems = computed(() => [
         description: t.value.timeline.workshop2.description,
         details: t.value.timeline.workshop2.details,
         points: t.value.timeline.workshop2.points,
-        logo: t.value.timeline.workshop2.logo
+        logo: logoMap.workshop2
     },
     {
         year: t.value.timeline.workshop3.date,
@@ -56,7 +65,7 @@ const timelineItems = computed(() => [
         description: t.value.timeline.workshop3.description,
         details: t.value.timeline.workshop3.details,
         points: t.value.timeline.workshop3.points,
-        logo: t.value.timeline.workshop3.logo
+        logo: logoMap.workshop3
     }
 ])
 </script>
