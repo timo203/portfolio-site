@@ -13,7 +13,7 @@ const logoMap = {
     optimex: '/images/optimex_.png',
     plusserver: '/images/plusserver.png',
     workshop1: '/images/skstiftungjugendundmedien.png',
-    brunata: '/images/brunata.png',
+    brunata: '/images/Brunata.png',
     workshop2: '/images/skstiftungjugendundmedien.png',
     workshop3: '/images/skstiftungjugendundmedien.png'
 }
