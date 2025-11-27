@@ -38,10 +38,11 @@ const translations = {
                 points: [
                     'Adaptation of the shop system to PHP 8 and subsequent migration to a new shop version due to an obsolete version.',
                     'Implementation of automated shipping APIs such as DHL and DHL Express.',
-                    'Implementation of OAuth due to the replacement of an obsolete authentication method.',
+                    'Implementation of OAuth with an already integrated API due to the replacement of an obsolete authentication method.',
                     'Automation of tax data maintenance through a cron job-controlled script that validates country-specific VAT rates and securely integrates changes into the system.',
                     'Clearer visualization of product relationships and their editing through the use of Drawflow and Vue.js.',
-                    'Development and deployment of a Laravel application for the rapid identification and display of shipping labels using shipment references as barcode scans, including automated access to the SFTP export directory via shipment references.'
+                    'Development and deployment of a Laravel application for the rapid identification and display of shipping labels using shipment references as barcode scans, including automated access to the SFTP export directory.',
+                    'Implementation of Google Places API (Places Autocomplete & Address Validation), for address input with dynamic completion display'
                 ]
             },
             plusserver: {
@@ -182,10 +183,11 @@ const translations = {
                 points: [
                     'Anpassung des Shop-Systems an PHP 8 und spätere Migration auf neue Shop Version aufgrund obsoleten Shop Version.',
                     'Implementierung von automatisierten Versand APIs wie DHL, DHL Express',
-                    'Implementierung von OAuth aufgrund ablösung einer obsoleten Authentifizierungs Methode.',
+                    'Implementierung von OAuth bei bereits Integrierter API aufgrund ablösung einer obsoleten Authentifizierungs Methode.',
                     'Automatisierung der Steuerdatenpflege durch ein Cronjob-gesteuertes Script, das länderspezifische MwSt.-Sätze validiert und Änderungen revisionssicher im System übernimmt.',
-                    'Übersichtlichere Veranschaulichung der Produktrelationen darstellen und diese ebenfalls darüber bearbeiten durhc die Nutzung von Drawflow und Vue.js.',
-                    'Entwicklung und Deployment einer Laravel-Anwendung zur schnellen Identifikation und Anzeige von Versandlabels mittels Sendungsreferenz als Barcode-Scan, inklusive automatisiertem Zugriff auf das SFTP-Exportverzeichnis, mittels Sendungsrefernz.'
+                    'Übersichtlichere Veranschaulichung der Produktrelationen darstellen und diese ebenfalls darüber bearbeiten durch die Nutzung von Drawflow und Vue.js.',
+                    'Entwicklung und Deployment einer Laravel-Anwendung zur schnellen Identifikation und Anzeige von Versandlabels mittels Sendungsreferenz generiert als Barcode-Scan, inklusive automatisiertem Zugriff auf das SFTP-Exportverzeichnis.',
+                    'Implementierung von Google Places API(Places Autocomplete & Address Validation), für Adresseingabe mit Dynamischer Vervollständigungs anzeige '
                 ]
             },
             plusserver: {
