@@ -1,6 +1,8 @@
-@import '@tailwind base';
-@tailwind components;
-@tailwind utilities;
+/* Load Tailwind v4 core */
+@import "tailwindcss";
+
+/* If you're using tailwindcss-animate (shadcn) */
+/* @plugin "tailwindcss-animate"; */
 
 html {
   scroll-behavior: smooth;
