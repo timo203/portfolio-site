@@ -179,7 +179,7 @@ const translations = {
                 date: '03/2023 - Jetzt',
                 title: 'Optimex Services GmbH - Fulltime Developer',
                 description: 'Nach Abschluss der betrieblichen Projektarbeit bei plusserver, habe ich bei Optimex als Vollzeitentwickler angefangen zu arbeiten und einen Monat später durch wiederholte Ablegung der Wirtschaftsprüfung meine Ausbildung hier volllständig abgeschlossen. ',
-                details: 'Alleinig verantwortlich für die Instandhaltung und Weiterentwicklung des Shop-Systems druch vielseite API anbindungen, erweiterung der Admin-CMS Features und Datenauswertungen. Hier einige Herausforderungen, die ich hier bisher bewältigen durfte:',
+                details: 'Alleinig verantwortlich für die Instandhaltung und Weiterentwicklung des Shop-Systems durch vielseite API anbindungen, erweiterung der Admin-CMS Features und Datenauswertungen. Hier einige Herausforderungen, die ich hier bisher bewältigen durfte:',
                 points: [
                     'Anpassung des Shop-Systems an PHP 8 und spätere Migration auf neue Shop Version aufgrund obsoleten Shop Version.',
                     'Implementierung von automatisierten Versand APIs wie DHL, DHL Express',
